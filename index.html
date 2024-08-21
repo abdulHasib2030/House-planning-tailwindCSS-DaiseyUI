@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+
+<head>
+    <meta charset="UTF-8" dat>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- DaisyUI and TailwindCSS CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- font awsome cdn  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        clifford: '#da373d',
+                        'btn-bg': 'rgb(171, 239, 95)',
+                        'bg-header': 'linear-gradient(0.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%)',
+                    }
+                }
+            }
+        }
+    </script>
+
+    <style>
+        .font-monrope {
+            font-family: "Manrope", sans-serif;
+        }
+    </style>
+
+</head>
+
+<body class="font-awesome">
+    <!-- header section start -->
+    <header class="container mx-auto mt-10 bg-bg-header">
+        <!-- navbar start -->
+        <nav>
+            <div class="navbar bg-base-100">
+                <div class="navbar-start">
+                    <i class="fa-solid  fa-arrow-right bg-btn-bg p-2 -rotate-45 text-[16px] rounded-[100%] mr-1"></i> <a
+                        class="font-bold text-3xl">Rinterio</a>
+                </div>
+
+                <div class="navbar-center hidden lg:flex">
+                    <ul class="menu menu-horizontal px-1 text-[16px] text-gray-500">
+                        <li><a class="text-black font-bold">Home</a></li>
+                        <li>
+                            <a href="">Services</a>
+                        </li>
+                        <li><a>Portfolio</a></li>
+                        <li><a>Blogs</a></li>
+                        <li><a>Contact Us</a></li>
+                    </ul>
+                </div>
+
+
+                <div class="navbar-end">
+                    <button class=" bg-white border-2 p-2 rounded-full mr-2 hidden md:block  ">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 " fill="none" viewBox="0 0 24 24"
+                            stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+                        </svg>
+                    </button>
+                    <button class="bg-white border-2 p-2 rounded-full mx-2">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 hidden md:block" fill="none"
+                            viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z" />
+                        </svg>
+                    </button>
+
+                    <div class="hidden md:block bg-btn-bg px-5 py-3 rounded-full ml-3">
+                        <a class=" font-bold text-xl ">Book Consult
+                            <i
+                                class="fa-solid  fa-arrow-right bg-black text-white p-2 -rotate-45 text-[16px] rounded-[100%] mr-1"></i>
+                        </a>
+                    </div>
+
+                    <div class="dropdown">
+                        <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                class="inline-block h-5 w-5 stroke-current">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M4 6h16M4 12h16M4 18h16"></path>
+                            </svg>
+                        </div>
+                        <ul tabindex="0"
+                            class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 right-1  w-52 p-2 shadow text-[16px] text-gray-500">
+                            <li><a class="text-black font-bold">Home</a></li>
+                            <li>
+                                <a href="">Services</a>
+                            </li>
+                            <li><a>Portfolio</a></li>
+                            <li><a>Blogs</a></li>
+                            <li><a>Contact Us</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+        </nav>
+        <!-- navbar end -->
+
+
+    </header>
+
+    <main>
+
+    </main>
+
+
+    <footer>
+
+    </footer>
+</body>
+
+</html>
